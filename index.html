@@ -2,49 +2,61 @@
 <html>
 
 <head>
+  <!-- BASIC INFO -->
+  <meta charset="utf-8">
 
+  <!-- VENDOR LINKS -->
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- RESOURCE LINKS -->
+  <script type='text/javascript' src='resources/js/animations.js'></script>
+  <script type='text/javascript' src='resources/js/script.js'></script>
+  <script type='text/javascript' src='resources/js/omegaCodeMin.js'></script>
+  <link rel='stylesheet' type='text/css' href='resources/css/main.css'>
 </head>
 
 <body>
+
   <header>
     <nav>
       <img alt='Neon Labs Logo' src='resources/media/img/general/main-logo.png'>
       <ul>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Products</a>
-        <a href="">Projects</a>
+        <a onclick='goToPage(this)' id='currentSectionNavLink'>Home</a>
+        <a onclick='goToPage(this)'>About</a>
+        <a  onclick='goToPage(this)'>Products</a>
+        <a onclick='goToPage(this)'>Projects</a>
       </ul>
     </nav>
   </header>
+
+  <div style='height: 15vh;'></div>
+
   <div class='main-section'>
-    <section id='about-section'>
+    <section id='Home-section'>
+      <h1>We Are Neon Labs</h1>
+      <h2>Building A Better Tomorrow<br>With Groundbreaking New Technology Products</h2>
+      <h1></h1>
+    </section>
+    <section id='About-section'>
       <h1 class='section-title-header'>About Us</h1>
     </section>
 
-    <section id='products-section'>
+    <section id='Products-section'>
       <h1 class='section-title-header'>Our Products</h1>
-      <div class='project-box'>
-
-      </div>
-      <div class='project-box'>
-
-      </div>
-      <div class='project-box'>
-
-      </div>
+      <h2>:C Sadly, we don't have any products yet.</h2>
     </section>
 
-    <section id='projects-section'>
+    <section id='Projects-section'>
       <h1 class='section-title-header'>Our Projects</h1>
       <div class='project-box'>
         <h1>HoloChat</h1>
-        <img alt='HoloChat Photo' src='#'>
+        <img src='#' alt='HoloChat Photo'>
         <p>Description</p>
       </div>
       <div class='project-box'>
         <h1>Cheap Radon Testing</h1>
-        <img alt='Cheap Radon Testing Photo' src='#'>
+        <img src='#' alt='Cheap Radon Testing Photo'>
         <p>Description</p>
       </div>
     </section>
@@ -52,7 +64,7 @@
 
   <footer>
     <p>&copy; Neon Labs 2016</p>
-    <p>For more information, please contact <a>info.neonlabs@gmail.com</a></p>
+    <p>For more information, please contact <a href='mailto:info.neonlabs@gmail.com?Subject=Neon%20Labs'>info.neonlabs@gmail.com</a></p>
   </footer>
 </body>
 
