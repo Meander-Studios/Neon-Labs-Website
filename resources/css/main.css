@@ -20,7 +20,7 @@ nav {
   margin: 0px 10vw;
 }
 .main-section section {
-  height: 100vh;
+  height: 85vh;
 }
 nav img {
   height: 10vh;
@@ -63,6 +63,7 @@ nav ul a::selection {
 }
 #Home-section {
   background-image: url(../media/img/backgrounds/1.jpg);
+  text-align: center;
 }
 #About-section {
   background-image: url(../media/img/backgrounds/2.jpg);
@@ -75,4 +76,7 @@ nav ul a::selection {
 }
 section {
   background-size: 100vw auto;
+}
+#Home-section img {
+  height: 85vh;
 }

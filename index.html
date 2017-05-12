@@ -8,6 +8,7 @@
   <!-- VENDOR LINKS -->
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="vendors/jquery/jquery.waypoints.min.js"></script>
 
   <!-- RESOURCE LINKS -->
   <script type='text/javascript' src='resources/js/animations.js'></script>
@@ -22,10 +23,10 @@
     <nav>
       <img alt='Neon Labs Logo' src='resources/media/img/general/main-logo.png'>
       <ul>
-        <a onclick='goToPage(this)' id='currentSectionNavLink'>Home</a>
-        <a onclick='goToPage(this)'>About</a>
-        <a  onclick='goToPage(this)'>Products</a>
-        <a onclick='goToPage(this)'>Projects</a>
+        <a class='navlink' onclick='goToPage(this)' id='currentSectionNavLink'>Home</a>
+        <a class='navlink' onclick='goToPage(this)'>About</a>
+        <a class='navlink' onclick='goToPage(this)'>Products</a>
+        <a class='navlink' onclick='goToPage(this)'>Projects</a>
       </ul>
     </nav>
   </header>
@@ -34,9 +35,7 @@
 
   <div class='main-section'>
     <section id='Home-section'>
-      <h1>We Are Neon Labs</h1>
-      <h2>Building A Better Tomorrow<br>With Groundbreaking New Technology Products</h2>
-      <h1></h1>
+      <img src='resources/media/img/quote.png' alt='main-photo'>
     </section>
     <section id='About-section'>
       <h1 class='section-title-header'>About Us</h1>
