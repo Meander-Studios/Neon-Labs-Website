@@ -125,3 +125,38 @@ html body .main-section #About-section .about-section-other-image-background {
   text-align: center;
   margin: 0% 37%;
 }
+.project-box img{
+  display: inline-block;
+  float: left;
+}
+
+.project-box img {
+  height: 100%;
+}
+.project-box {
+  height: 30vh;
+}
+.project-text {
+  height: 100%;
+  display: inline-block;
+  float: left;
+  width: 30%;
+}
+.project-text h1 {
+  font-size: 275%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  width: auto;
+}
+.project-text p {
+  font-size: 137.5%;
+  margin-left: 2.5%;
+  line-height: 150%;
+  margin-top: 1.5%;
+}
+.project-text p,.project-text h1{
+  color: #454545;
+}
+.project-text h1 {
+  color: black;
+}
